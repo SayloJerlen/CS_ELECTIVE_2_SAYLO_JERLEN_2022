@@ -1,0 +1,98 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+#body{height: 1000px;}
+#header {
+	background: url(/bg.png);
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+}
+#header h1, h2, h3{
+	width: 90%;
+	height: 30%;
+	padding: 3px;
+	color: rgb(242, 242, 242);
+	text-shadow: 3px 3px 3px #333;
+  margin-left: 3%;
+}
+.menuitem {
+    overflow: hidden;
+    background-color: rgb(6, 6, 46);
+    margin: 0%;
+    padding: 0%;
+  }
+.menuitem a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    display: block;
+  }
+.menuitem a:hover {
+    background-color: #ddd;
+    color: rgb(43, 10, 67);
+  }
+.li{
+    border-right: none;
+}
+#leftmenu{
+  background: rgb(23, 5, 60);
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+#leftmenu{
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  display: block;
+  list-style: none;
+}
+#leftmenu a{
+  color: #ddd;
+  list-style-type: none;
+}
+#content{
+  background-color: black;
+  height: 600px;
+  margin-left: 11%;
+}
+#content p{
+  margin-top: 2px;
+  margin-left: 3%;
+  text-align: justify;
+  width: 90%;
+	height: 100%;
+	padding: 2px;
+	color: rgb(242, 242, 242);
+	text-shadow: 3px 3px 3px #333;
+  margin-left: 3%;
+}
+#footer{
+  position: fixed;
+  top: 90%;
+  left: 11.7%;
+  bottom: 100;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(159, 132, 193);
+  color: #f2f2f2;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  display: block;
+}
